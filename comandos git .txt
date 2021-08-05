@@ -1,0 +1,38 @@
+[19:06] MONTIEL DIAZ RUBEN DAVID
+    
+git config --global user.name "Fulano"
+​[19:06] MONTIEL DIAZ RUBEN DAVID
+    
+git config --global user.email "fulano@gmail.com"
+​[19:10] MONTIEL DIAZ RUBEN DAVID
+    
+git init (INICIALIZAR EL REPOSITORIO)
+​[19:11] MONTIEL DIAZ RUBEN DAVID
+    
+git add [nombre de archivo] o [ . ]  en caso de agregar todo nuestro entorno de trabajo
+​[19:12] MONTIEL DIAZ RUBEN DAVID
+    
+git commit -m "Descripcion" (Agregar cambios a nuestro repositorio local)
+
+git status -s (muestra el estado de nuestro ambiente de trabajo)
+
+git log --oneline (para ver los cambios que se hicieron en el repositorio)
+
+git reset --hard 971d90e -> id de commit 
+
+
+
+git remote add origin https://github.com/jgalvezgonzalez89/cursogit.git
+
+git branch -M main
+
+git push -u origin main
+
+
+git pull -- bajar actualizacion desde la nube de github 
+
+git tag 4-AGO-2021_V1 -m "Version 1 del proyecto contiene login"
+
+
+
+
